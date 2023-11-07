@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAWSITIVITY</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Creators{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #f2f3f7;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .card{
+    width: 330px;
+    height:416px;
+    padding: 60px 30px;
+    margin:20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+                -0.5em 0.5em 1em #d2dce9;
+    border-radius: 20px;
+}
+.container .card .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .card .content .imgBx{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.container .card .content .imgBx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.container .card .content .contentBx h4{
+    color:#36187d;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.container .card .content .contentBx h5{
+    color:#6c758f;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.container .card .content .sci{
+    margin-top: 20px;
+}
+.container .card .content .sci a{
+    text-decoration: none;
+    color:#6c758f;
+    font-size: 30px;
+    margin: 10px;
+}
+.container .card .content .sci a:hover{
+    color:#F53803;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">PAWSITIVITY</a>
+        <ul>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="1 2.html">Facts & News</a></li>
+            <li><a href="articles2.html">Articles</a></li>
+            <li><a href="disease.html">Adoption</a></li>
+            <li><a href="new.htm">NGO</a></li>
+            <li><a href="registration.html">Sign in</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="485657-PH0ZG0-980-removebg-preview.png" id="bgcover" width="100%">
+        <h2 id="text">PAWSITIVITY</h2>
+        <a href="#sec" id="btn" >Explore</a>
+        <img src="6218216-removebg-preview-2.png" id="mountains" width="100%">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Pawsitivity</h2>
+        <p>Pet animals are a beloved part of many people's lives. Animal lovers are individuals who have a strong affinity for animals and feel a deep connection with them. They may have pets of their own, volunteer at animal shelters or rescue organizations, or support animal welfare causes. Animal lovers appreciate the unique qualities of different animals and often have a deep respect for the natural world. They may enjoy spending time outdoors, observing wildlife, or engaging in activities that promote conservation efforts. For many animal lovers, the bond they form with their pets is incredibly meaningful, and they feel a sense of responsibility to ensure their pets' well-being. They may also be passionate advocates for animal welfare, working to protect animals from cruelty and abuse. Overall, animal lovers recognize the value of animals in our lives and strive to create a world where animals are treated with kindness and respect.<br>Considering you to be an animal lover this website is the perfect place for you!</p>
+        <h2></h2>
+        <div class="team">
+           <h2 style="text-align: center;text-decoration: underline; text-decoration-thickness: 2px;">Our Team</h2>
+        </div>
+        <div class="Creators">
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Siddhi.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h4>Siddhi Jadhav</h4>
+                            <h5>Designer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Bhavya1.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h4>Bhavya Arya</h4>
+                            <h5>Designer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Shambhavi.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h4>Shambhavi</h4>
+                            <h5>Designer</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Nikki.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h4>Nikita Kumari</h4>
+                            <h5>Designer</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="Diksha.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h4>Diksha Dutta</h4>
+                            <h5>Designer</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let bgcover = document.getElementById('bgcover');
+        let mountains = document.getElementById('mountains');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+
+        window.addEventListener('scroll',function(){
+            let value = window.scrollY;
+            bgcover.style.top = value* 0.5 + 'px';
+            text.style.marginRight= value*4 + 'px';
+            mountains.style.top = value*0 +'px';
+        })
+    </script>
+    <div id='home_tail'>Location:<br>HeadQuarters, India<br>400064 , India <br>
+        QX3X+FM Mumbai, India<br>+919322703094<br><br>
+        <a href="https://www.instagram.com/origins/" class="tail_ele" width="2.5%">
+            <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph-1200x1199.png" width="2%" style="padding-right:1% ;">Instagram</a>
+        <a href="https://www.facebook.com/Origins/" class="tail_ele">
+            <img src="623dd7d270712bdafc63c38a.png" width="2.5%"> Facebook</a>
+        <a href="https://www.youtube.com/@origins" class="tail_ele" style="border-right: none;">
+            <img src="https://cdn.logojoy.com/wp-content/uploads/20200406092725/youtube-icon.png" width="2.5%"> Youtube</a>
+            <br>
+            <p>© Copyright Pawsitivity, Inc.</p>
+    </div>
+    <p>&nbsp;</p>
+    <p style="text-align: center;font-weight: bold;">Do leave your valuable Feedback!</p>
+    <sect>
+     <a href="feedback.html" id="btn1" >Feedback</a>
+    </sect>
+</body>
+</html>
